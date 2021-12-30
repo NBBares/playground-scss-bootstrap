@@ -1,0 +1,5 @@
+node_modules/
+.env
+public/imgs/**
+# Delete expandable
+# landing section should really be a template

@@ -1,0 +1,80 @@
+//----------------------- Start of Globals -----------------------
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+$lulzbot-green : #C1D82F;
+$lulzbot-litegreen : #E2E868;
+$lulzbot-darkgreen : #788814;
+$lulzbot-litegrey :  #CCCCCC;
+$lulzbot-grey : #666666;
+$lulzbot-white : #FFFFFFFF;
+$lulzbot-black : #000000;
+
+$hover-transition-duration: .25s;
+
+// TODO This should probably be in _bootstrap_custom,
+//      but I couldn't get the colors to apply to all elements
+//      if the custom colors were defined after the variables were imported.
+$theme-colors: (
+  "primary": $lulzbot-green,
+  "secondary": $lulzbot-white,
+  "info": $lulzbot-litegreen,
+  "light": $lulzbot-litegrey,
+  "gray": $lulzbot-grey,
+  "dark": $lulzbot-black
+);
+$gray-600: #868e96;
+$blue:    #042654;
+$red:     #DB2E2D;
+$green:   #a5d34f;
+
+.titillium {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 414px;
+//----------------------- END OF GLOBALS -----------------------
+
+
+.footer {
+    height: 10rem;
+    background-color: #a2ba0c
+}
+
+// Breakpoints: 
+// 0 -> 414
+// 1 -> 834
+// 2 -> 1112
+// 3 -> 1440
+// 4 -> 1920+
+
+// Device Category	Breakpoint Width	Device Name
+// Mobile, portrait	
+// 320px	iPhone SE
+// 375px	iPhone 6 to X
+// 414px	iPhone 8 Plus
+
+// Mobile, landscape	
+// 568px	iPhone SE
+// 667px	iPhone 6 to 8
+// 736px	iPhone 8 Plus
+// 812px	iPhone X
+
+// Tablet, portrait	
+// 768px	iPad Air, iPad Mini, iPad Pro 9″
+// 834px	iPad Pro 10″
+
+// Tablet, landscape	
+// 1024px	iPad Air, iPad Mini, iPad Pro 9″
+// 1024px	iPad Pro 12″ (portrait)
+// 1112px	iPad Pro 10″
+
+// Laptop displays	
+// 1366px	HD laptops (768p)
+// 1366px	iPad Pro 12″ (landscape)
+// 1440px	13″ MacBook Pro (2x scaling)
+
+// Desktop displays	
+// 1680px	13″ MacBook Pro (1.5x scaling)
+// 1920px	1080p displays
